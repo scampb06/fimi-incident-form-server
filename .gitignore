@@ -1,0 +1,31 @@
+# Build results
+bin/
+obj/
+
+# Secrets and sensitive configuration
+secrets/*.json
+secrets/service_account.json
+appsettings.Development.json
+appsettings.json
+*.user
+
+# Azure Functions
+local.settings.json
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+.env.local
+
+# Azure credentials
+azure-credentials.txt
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
