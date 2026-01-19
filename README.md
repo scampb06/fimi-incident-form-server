@@ -1,5 +1,7 @@
 This repository contains the ASP.NET/C# code for several endpoints used by the corresponding HTML/JavaScript/CSS in the the FIMI Incident Form.
 
+THIS IS A DRAFT REPOSITORY AWAITING INTERNAL REVIEW AND TESTING. WE ADVISE NOT TO USE IN ITS CURRENT STATE.  
+
 ## Azure Setup
 
 Before deploying this application, you need to complete the following prerequisites:
