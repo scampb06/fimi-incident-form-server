@@ -61,6 +61,8 @@ All configuration parameters are documented in [appsettings.md](appsettings.md).
 
 ## Endpoints
 
+This application supports the following endpoints:
+
 | Endpoint | Description |
 |----------|----------|
 | /generate-text | Uses ChatGPT to generate a text summary given a prompt |
