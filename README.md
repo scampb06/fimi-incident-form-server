@@ -67,12 +67,12 @@ This application supports the following endpoints:
 
 | Endpoint | Description |
 |----------|----------|
-| /generate-text | Uses ChatGPT to generate a text summary given a prompt |
-| /cors-proxy/pdf | bypass CORS (Cross-Origin Resource Sharing) restrictions when PDF server doesn't allow direct browser access |
-| /google-sheets/extract-domains | Extracts top-level domain for each URL in a given Google Sheet |
-| /google-sheets/extract-channels | Extract channel for each URL in a given Google Sheet |
-| /google-sheets/archive-urls | Archives URLs in a given Google Sheet using Wayback Machine |
-| /google-sheets/check-permissions | Checks if service account has read (or optionally write) permission to access a given Google Sheet |
-| /google-sheets/data-for-url | Uses service account to retrieve all data from given Google Sheet |
-| /bellingcat/auto-archiver-sheets-asynchronous | Runs background job to archive URLs in a given Google Sheet using Bellingcat Auto Archiver |
-| /bellingcat/auto-archiver/status | Check status of Bellingcat Auto Archiver background job  |
+| [/generate-text](documentation/generate-text.md) | Uses ChatGPT to generate a text summary given a prompt |
+| [/cors-proxy/pdf](documentation/cors-proxy-pdf.md) | bypass CORS (Cross-Origin Resource Sharing) restrictions when PDF server doesn't allow direct browser access |
+| [/google-sheets/extract-domains](documentation/google-sheets-extract-domains.md) | Extracts top-level domain for each URL in a given Google Sheet |
+| [/google-sheets/extract-channels](documentation/google-sheets-extract-channels.md) | Extract channel for each URL in a given Google Sheet |
+| [/google-sheets/archive-urls](documentation/google-sheets-archive-urls.md) | Archives URLs in a given Google Sheet using Wayback Machine |
+| [/google-sheets/check-permissions](documentation/google-sheets-check-permissions.md) | Checks if service account has read (or optionally write) permission to access a given Google Sheet |
+| [/google-sheets/data-for-url](documentation/google-sheets-data-for-url.md) | Uses service account to retrieve all data from given Google Sheet |
+| [/bellingcat/auto-archiver-sheets-asynchronous](documentation/bellingcat-auto-archiver-sheets-asynchronous.md) | Runs background job to archive URLs in a given Google Sheet using Bellingcat Auto Archiver |
+| [/bellingcat/auto-archiver/status/{jobId}](documentation/bellingcat-auto-archiver-status.md) | Check status of Bellingcat Auto Archiver background job  |
